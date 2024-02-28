@@ -1,0 +1,818 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background: #202C36;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+}
+
+.wrapper {
+    display: flex;
+    padding: 29px 0;
+}
+
+.dark {
+    margin-left: 941px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.world {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.search {
+    width: 480px;
+    height: 56px;
+    top: 48 px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(43, 56, 68);
+    color: white;
+
+}
+
+.boxes {
+
+}
+
+.boxs {
+    display: flex;
+    gap: 75px;
+    margin-top: 48px;
+}
+
+.box {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: rgb(43, 56, 68);
+}
+
+.box2 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box3 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box4 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box_foto {
+    position: absolute;
+    right: 1126px;
+    bottom: 383px;
+}
+
+.box_foto2 {
+    position: absolute;
+    right: 787px;
+    bottom: 383px;
+}
+
+.box_foto3 {
+    position: absolute;
+    right: 449px;
+    bottom: 383px;
+}
+
+.box_foto4 {
+    position: absolute;
+    right: 112px;
+    bottom: 383px;
+}
+
+.germany {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 170px;
+    margin-left: 24px;
+}
+
+.berlin {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 24px;
+}
+
+.box5 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: rgb(43, 56, 68);
+}
+
+.box6 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box7 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box8 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+.boxs2{
+    display: flex;
+    gap: 75px;
+    margin-top: 67px;
+}
+.box_foto5 {
+    position: absolute;
+    right: 1128px;
+    bottom: 1px;
+    top: 590px;
+}
+
+.box_foto6 {
+    position: absolute;
+    right: 787px;
+    bottom: 1px;
+    top: 590px;
+}
+
+.box_foto7 {
+    position: absolute;
+    right: 448px;
+    bottom: 1px;
+    top: 590px;
+}
+
+.box_foto8 {
+    position: absolute;
+    right: 110px;
+    bottom: 1px;
+    top: 590px;
+}
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 1px) and (max-width: 600px) {
+    .boxes{
+        flex-wrap: wrap;
+    }
+    .boxs {
+        display: flex;
+        gap: 75px;
+        margin-top: 48px;
+    }
+    .box {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        background: rgb(43, 56, 68);
+    }
+    
+    .box2 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box3 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box4 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box_foto {
+        position: absolute;
+        right: 1135px;
+        bottom: 390px;
+    }
+    
+    .box_foto2 {
+        position: absolute;
+        right: 795px;
+        bottom: 390px;
+    }
+    
+    .box_foto3 {
+        position: absolute;
+        right: 455px;
+        bottom: 390px;
+    }
+    
+    .box_foto4 {
+        position: absolute;
+        right: 120px;
+        bottom: 390px;
+    }
+    
+    .germany {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 170px;
+        margin-left: 24px;
+    }
+    
+    .berlin {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-left: 24px;
+    }
+    
+    .box5 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        background: rgb(43, 56, 68);
+    }
+    
+    .box6 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box7 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box8 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    .boxs2{
+        display: flex;
+        gap: 75px;
+        margin-top: 67px;
+    }
+    .box_foto5 {
+        position: absolute;
+        right: 1128px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+    .box_foto6 {
+        position: absolute;
+        right: 787px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+    .box_foto7 {
+        position: absolute;
+        right: 448px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+    .box_foto8 {
+        position: absolute;
+        right: 110px;
+        bottom: 1px;
+        top: 590px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .boxs {
+        display: flex;
+        gap: 75px;
+        margin-top: 48px;
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        background: rgb(43, 56, 68);
+    }
+    
+    .box2 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box3 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box4 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box_foto {
+        position: absolute;
+        right: 1135px;
+        bottom: 390px;
+    }
+    
+    .box_foto2 {
+        position: absolute;
+        right: 795px;
+        bottom: 390px;
+    }
+    
+    .box_foto3 {
+        position: absolute;
+        right: 455px;
+        bottom: 390px;
+    }
+    
+    .box_foto4 {
+        position: absolute;
+        right: 120px;
+        bottom: 390px;
+    }
+    
+    .germany {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 170px;
+        margin-left: 24px;
+    }
+    
+    .berlin {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-left: 24px;
+    }
+    
+    .box5 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        background: rgb(43, 56, 68);
+    }
+    
+    .box6 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box7 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box8 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    .boxs2{
+        display: flex;
+        gap: 75px;
+        margin-top: 67px;
+    }
+    .box_foto5 {
+        position: absolute;
+        right: 1128px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+    .box_foto6 {
+        position: absolute;
+        right: 787px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+    .box_foto7 {
+        position: absolute;
+        right: 448px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+    .box_foto8 {
+        position: absolute;
+        right: 110px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+
+}
+
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .boxs {
+        display: flex;
+        gap: 75px;
+        margin-top: 48px;
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        background: rgb(43, 56, 68);
+    }
+    
+    .box2 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box3 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box4 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box_foto {
+        position: absolute;
+        right: 1135px;
+        bottom: 390px;
+    }
+    
+    .box_foto2 {
+        position: absolute;
+        right: 795px;
+        bottom: 390px;
+    }
+    
+    .box_foto3 {
+        position: absolute;
+        right: 455px;
+        bottom: 390px;
+    }
+    
+    .box_foto4 {
+        position: absolute;
+        right: 120px;
+        bottom: 390px;
+    }
+    
+    .germany {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-top: 170px;
+        margin-left: 24px;
+    }
+    
+    .berlin {
+        color: rgb(255, 255, 255);
+        font-family: Nunito Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-left: 24px;
+    }
+    
+    .box5 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        background: rgb(43, 56, 68);
+    }
+    
+    .box6 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box7 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    
+    .box8 {
+        width: 264px;
+        height: 336px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+        background: rgb(43, 56, 68);
+    }
+    .boxs2{
+        display: flex;
+        gap: 75px;
+        margin-top: 67px;
+    }
+    .box_foto5 {
+        position: absolute;
+        right: 1128px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+    .box_foto6 {
+        position: absolute;
+        right: 787px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+    .box_foto7 {
+        position: absolute;
+        right: 448px;
+        bottom: 1px;
+        top: 590px;
+    }
+    
+    .box_foto8 {
+        position: absolute;
+        right: 110px;
+        bottom: 1px;
+        top: 590px;
+    }
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (min-width: 1201px) {
+   
+.boxs {
+    display: flex;
+    gap: 75px;
+    margin-top: 48px;
+}
+
+.box {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: rgb(43, 56, 68);
+}
+
+.box2 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box3 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box4 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box_foto {
+    position: absolute;
+    right: 1126px;
+    bottom: 383px;
+}
+
+.box_foto2 {
+    position: absolute;
+    right: 787px;
+    bottom: 383px;
+}
+
+.box_foto3 {
+    position: absolute;
+    right: 449px;
+    bottom: 383px;
+}
+
+.box_foto4 {
+    position: absolute;
+    right: 112px;
+    bottom: 383px;
+}
+
+.germany {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 170px;
+    margin-left: 24px;
+}
+
+.berlin {
+    color: rgb(255, 255, 255);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 24px;
+}
+
+.box5 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    background: rgb(43, 56, 68);
+}
+
+.box6 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box7 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+
+.box8 {
+    width: 264px;
+    height: 336px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    background: rgb(43, 56, 68);
+}
+.boxs2{
+    display: flex;
+    gap: 75px;
+    margin-top: 67px;
+}
+.box_foto5 {
+    position: absolute;
+    right: 1128px;
+    bottom: 1px;
+    top: 590px;
+}
+
+.box_foto6 {
+    position: absolute;
+    right: 787px;
+    bottom: 1px;
+    top: 590px;
+}
+
+.box_foto7 {
+    position: absolute;
+    right: 448px;
+    bottom: 1px;
+    top: 590px;
+}
+
+.box_foto8 {
+    position: absolute;
+    right: 110px;
+    bottom: 1px;
+    top: 590px;
+}
+}
+
